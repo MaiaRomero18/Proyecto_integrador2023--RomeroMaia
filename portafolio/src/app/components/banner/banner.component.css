@@ -1,0 +1,34 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_title h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-left: 250px;
+}
+
+.banner_title .enjoy{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 300px;
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    width: 600px;
+    display: block;
+    padding-right: 250px;
+    border-radius: 100%;
+}
