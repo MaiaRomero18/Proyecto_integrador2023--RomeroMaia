@@ -8,17 +8,29 @@
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 2%;
+        top: 11%;
     }
 }
-.comentario{
+@media(max-width: 575px){
+    img{
+        position: block;
+        width: 170px;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        margin-left: 27px;
+    }
+}
+span{
     text-align: justify;
-    background: none;
-    padding-left: 250px;
+    font-size: medium;
+    padding-left: 350px;
+    margin-top: 30%;
 }
 div{
     text-align: center;
+    background: #6eb9e4;
 }
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 10%;
 }

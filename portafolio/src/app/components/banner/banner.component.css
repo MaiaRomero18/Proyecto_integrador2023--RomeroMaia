@@ -1,34 +1,39 @@
-.banner{
+#banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.banner_title h2{
+#banner_title h2{
     color: #fff;
     font-size: 60px;
     font-weight: 800;
-    margin-bottom: 20px;
-    padding-left: 250px;
+    padding-bottom: 20px;
+    padding-left: 100px;
 }
 
-.banner_title .enjoy{
+#banner_title .enjoy{
     color: #fff;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    padding-left: 300px;
+    padding-left: 200px;
 }
 
-.banner_img{
-    animation: movimiento 2.5s linear infinite;
+@media(min-width: 576px){
+    img{
+        width: 400px;
+        border-radius: 100%;
+        padding-right: 60px;
+        top: 299px;
+    }
 }
-
-.banner_img img{
-    width: 600px;
-    display: block;
-    padding-right: 250px;
-    border-radius: 100%;
+@media(max-width: 575px){
+    img{
+        width: 250px;
+        padding-left: 60px;
+        border-radius: 100%;
+    }
 }

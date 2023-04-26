@@ -9,6 +9,7 @@ import { RedesSComponent } from './components/redes-s/redes-s.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { ExperineciaComponent } from './components/experinecia/experinecia.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
     LogoAPComponent,
     RedesSComponent,
     BannerComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    ExperineciaComponent
   ],
   imports: [
     BrowserModule,
